@@ -87,4 +87,11 @@ section {
 	#separator p {
 		font-size: 2rem;
 	}
+
+}
+
+@media (max-width: 787px) {
+	#freelance {
+		background-position: -20em 0em; 
+	}
 }
