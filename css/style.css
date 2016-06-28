@@ -1,0 +1,58 @@
+body {
+	font-family: 'Bungee Shade', cursive, sans-serif;
+	background-color: black;
+	color: black;
+}
+
+section {
+	border-bottom: 3px solid white;
+}
+
+.title {
+	font-size: 5em;
+	text-align: center;
+}
+
+#top-nav {
+	background-color: mintcream;
+	font-size: 1em;
+}
+
+#intro {
+	background-image: url('../img/cover1.jpg');
+	min-height: 42em;
+	margin: 3.6em 0 0 0;
+	background-size: cover;
+	background-position: 0em;
+	-webkit-filter: saturate(2);
+}
+
+#separator {
+	min-height: 1em;
+	color: white;
+	font-size: 3em;
+}
+
+#separator p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#freelance {
+	min-height: 52em;
+	background-image: url('../img/freelance1.jpg');
+	background-size: cover;
+	background-position: 0em 0em;
+	-webkit-filter: saturate(2);
+}
+
+.navbar-fixed-top .navbar-brand {
+	font-size: 2.2em;
+	color: black;
+}
+
+
+.navbar-fixed-top .navbar-nav > .active > a, .navbar-fixed-top .navbar-nav > .open > a, .navbar-fixed-top .navbar-nav > li > a {
+	color: black;
+}
