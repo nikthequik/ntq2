@@ -2,10 +2,12 @@ body {
 	font-family: 'Bungee Shade', cursive, sans-serif;
 	background-color: black;
 	color: black;
+	overflow-x: hidden;
 }
 
 section {
 	border-bottom: 3px solid white;
+	
 }
 
 .title {
@@ -36,6 +38,7 @@ section {
 #separator p {
     margin-top: 1em;
     margin-bottom: 1em;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -59,4 +62,21 @@ section {
 
 .nav > li > a:hover, .nav > li > a:focus {
 	background-color: orange;
+}
+
+@media (max-width: 1000px) {
+
+	.title {
+		font-size: 10vw;
+	}
+	
+	#separator {
+		min-height: 1em;
+		color: white;
+		font-size: 6vw;
+	}
+	
+	#separator p {
+		font-size: 2rem;
+	}
 }
