@@ -6,7 +6,7 @@ body {
 }
 
 section {
-	border-bottom: 3px solid white;
+	border-bottom: 3px solid black;
 }
 
 .title {
@@ -17,6 +17,7 @@ section {
 #top-nav {
 	background-color: lemonchiffon;
 	font-size: 1.2em;
+	border-bottom: 3px solid black;
 }
 
 #intro {
@@ -38,7 +39,7 @@ section {
 
 #separator p {
     margin-top: 1em;
-    margin-bottom: 3.1em;
+    margin-bottom: 1em;
     font-size: 4rem;
     color: black;
     text-align: center;
@@ -50,6 +51,7 @@ section {
 	background-size: cover;
 	background-position: 0em 0em;
 	-webkit-filter: saturate(2);
+	border-top: 1px solid black;
 }
 
 #freelance:before {
