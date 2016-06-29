@@ -62,11 +62,23 @@ section {
 }
 
 #projects {
-	min-height: 52em;
+	min-height: 75em;
 	background-image: url('../img/projects.jpg');
 	background-size: cover;
 	background-position: 0em 0em;
 	-webkit-filter: saturate(2);
+}
+
+#footer {
+	background-color: lemonchiffon;
+	font-size: 1.2em;
+	border-top: 3px solid black;
+	padding-top: .6em;
+}
+
+.footer-content {
+	text-align: center;
+	font-weight: 600;
 }
 
 .navbar-fixed-top .navbar-brand {
@@ -79,10 +91,15 @@ section {
 
 .navbar-fixed-top .navbar-nav > .active > a, .navbar-fixed-top .navbar-nav > .open > a, .navbar-fixed-top .navbar-nav > li > a {
 	color: black;
+	font-weight: 600;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
 	background-color: orange;
+}
+
+.dropdown-menu {
+	background-color: lemonchiffon;
 }
 
 
