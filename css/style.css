@@ -1,7 +1,7 @@
 body {
 	font-family: 'Bungee Shade', cursive, sans-serif;
 	background-color: black;
-	color: black;
+	color: #333;
 	overflow-x: hidden;
 }
 
@@ -41,7 +41,7 @@ section {
     margin-top: 1em;
     margin-bottom: 1em;
     font-size: 4rem;
-    color: black;
+    color: #333;
     text-align: center;
 }
 
@@ -86,6 +86,12 @@ section {
 	font-weight: 600;
 }
 
+h1 small {
+	color: #333;
+}
+
+/* Bootstrap Overrides */
+
 .navbar-fixed-top .navbar-brand {
 	font-size: 2.2em;
 	color: darkgreen;
@@ -98,7 +104,7 @@ section {
 }
 
 .navbar-fixed-top .navbar-nav > .active > a, .navbar-fixed-top .navbar-nav > .open > a, .navbar-fixed-top .navbar-nav > li > a {
-	color: black;
+	color: #333;
 	font-weight: 600;
 }
 
