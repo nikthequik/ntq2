@@ -12,6 +12,7 @@ section {
 .title {
 	font-size: 5em;
 	text-align: center;
+	line-height: 0.8em;
 }
 
 #top-nav {
@@ -22,7 +23,7 @@ section {
 
 #intro {
 	background-image: url('../img/cover1.jpg');
-	min-height: 42em;
+	min-height: 90vh;
 	background-size: cover;
 	background-position: 0em;
 	-webkit-filter: saturate(2);
@@ -46,7 +47,7 @@ section {
 }
 
 #aboutme {
-	min-height: 52em;
+	min-height: 80vh;
 	background-image: url('../img/freelance1.jpg');
 	background-size: cover;
 	background-position: 0em 0em;
@@ -61,7 +62,7 @@ section {
 }
 
 #projects {
-	min-height: 75em;
+	min-height: 90vh;
 	background-image: url('../img/projects.jpg');
 	background-size: cover;
 	background-position: 0em 0em;
@@ -78,7 +79,7 @@ section {
 	background-color: lemonchiffon;
 	font-size: 1.2em;
 	border-top: 3px solid black;
-	padding-top: .6em;
+	padding-top: 0.2em;
 }
 
 .footer-content {
