@@ -45,7 +45,7 @@ section {
     text-align: center;
 }
 
-#freelance {
+#aboutme {
 	min-height: 52em;
 	background-image: url('../img/freelance1.jpg');
 	background-size: cover;
@@ -54,7 +54,7 @@ section {
 	border-top: 1px solid black;
 }
 
-#freelance:before {
+#aboutme:before {
 	content:"";
 	display: block;
 	height: 3em;
@@ -109,7 +109,7 @@ h1 small {
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-	background-color: orange;
+	background-color: transparent;
 }
 
 .dropdown-menu {
@@ -117,14 +117,20 @@ h1 small {
 }
 
 .nav > li > a.btn-lg {
-	font-size: 2em;
-	padding: 0.2em;
+	/* font-size: 2em;
+	padding: 0.2em; */
+	display: inline;
+	padding: 0em 0.4em;
 }
 
 .navbar-right li {
 	display: inline;
+	margin: 0.5em 0.5em;
 }
 
+.navbar-right {
+	text-align: center;
+}
 
 @media (max-width: 1000px) {
 
@@ -145,7 +151,7 @@ h1 small {
 }
 
 @media (max-width: 787px) {
-	#freelance {
+	#aboutme {
 		background-position: -20em 0em; 
 	}
 }
