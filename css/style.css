@@ -94,7 +94,7 @@ h1 small {
 
 .navbar-fixed-top .navbar-brand {
 	font-size: 2.2em;
-	color: darkgreen;
+	color: sienna;
 	letter-spacing: -6px;
 	font-family: 'Shrikhand';
 }
@@ -116,6 +116,14 @@ h1 small {
 	background-color: lemonchiffon;
 }
 
+.nav > li > a.btn-lg {
+	font-size: 2em;
+	padding: 0.2em;
+}
+
+.navbar-right li {
+	display: inline;
+}
 
 
 @media (max-width: 1000px) {
