@@ -12,6 +12,7 @@ section {
 .title {
 	font-size: 5em;
 	text-align: center;
+	margin-bottom: 1em;
 	line-height: 0.8em;
 }
 
@@ -88,11 +89,15 @@ section {
 .footer-content {
 	text-align: center;
 	font-weight: 600;
+	font-family: 'Shrikhand', cursive, sans-serif;
+	color: #333;
 }
 
 h1 small {
 	color: #333;
 }
+
+#project-carousel {/* top: 6vh; */margin-bottom: 13vh;}
 
 /* Bootstrap Overrides */
 
@@ -134,6 +139,31 @@ h1 small {
 
 .navbar-right {
 	text-align: center;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	width: auto;
+	height: 54vh;
+	margin: 0 auto;
+	border: 3px solid #333;
+	border-radius: 5px;
+}
+
+.carousel-caption {
+	top: 0%;
+}
+
+.carousel-caption> h1, .carousel-caption>p {
+	color: antiquewhite;
+	font-family: 'Shrikhand', cursive, sans-serif;
+	margin-top: -0.6vh;
+}
+
+.carousel-caption .btn {
+	margin-top: 9em;
+	background-color: antiquewhite;
+	color: #333;
 }
 
 @media (max-width: 1000px) {
