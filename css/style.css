@@ -151,19 +151,23 @@ h1 small {
 }
 
 .carousel-caption {
-	top: 0%;
+	margin-top: 1px;
 }
 
-.carousel-caption> h1, .carousel-caption>p {
+.carousel-caption> h1, .carousel-caption>p:first-of-type {
 	color: antiquewhite;
 	font-family: 'Shrikhand', cursive, sans-serif;
 	margin-top: -0.6vh;
 }
 
+.carousel-caption>h1 {
+	margin-bottom: 0;
+}
+
 .carousel-caption .btn {
-	margin-top: 17em;
 	background-color: antiquewhite;
 	color: #333;
+	font-family: 'Shrikhand', cursive, sans-serif;
 }
 
 @media (max-width: 1000px) {
