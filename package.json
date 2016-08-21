@@ -1,13 +1,16 @@
 {
   "name": "ntq2",
   "version": "1.0.0",
+  "private": false,
   "description": "Personal portfolio website",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt test",
+    "postinstall": "npm install"
   },
   "repository": {
     "type": "git",
+
     "url": "git+https://github.com/nikthequik/ntq2.git"
   },
   "author": "Nicholas Brown",
@@ -15,9 +18,16 @@
   "bugs": {
     "url": "https://github.com/nikthequik/ntq2/issues"
   },
+  "engines": {
+    "node": "5.1.0",
+    "npm": "3.4.1"
+  },
   "homepage": "https://github.com/nikthequik/ntq2#readme",
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "jquery": "^3.0.0"
-  }
+    "jquery": "^3.0.0",
+    "bower": "1.7.1",
+    "express": "4.13.3"
+  },
+  "cacheDirectories": ["node_modules"]
 }
