@@ -9,11 +9,20 @@ section {
 	border-bottom: 3px solid black;
 }
 
-.title {
-	font-size: 5em;
+.intro-title {
+	font-size: 6em;
 	text-align: center;
 	margin-bottom: 1em;
 	line-height: 0.8em;
+	font-family: 'Bungee Shade', cursive, sans-serif;
+}
+
+.title {
+	font-size: 2.5em;
+	text-align: center;
+	line-height: 0.8em;
+	color: #333;
+	font-family: 'Bungee Shade', cursive, sans-serif;
 }
 
 #top-nav {
@@ -24,7 +33,7 @@ section {
 
 #intro {
 	background-image: url('../img/cover1.jpg');
-	min-height: 90vh;
+	min-height: 95vh;
 	background-size: cover;
 	background-position: 0em;
 	-webkit-filter: saturate(2);
@@ -32,7 +41,7 @@ section {
 	background-repeat: no-repeat;
 }
 
-#separator {
+#aboutme {
 	min-height: 1em;
 	color: white;
 	font-family: Shrikhand, cursive, sans-serif;
@@ -40,15 +49,38 @@ section {
 	font-size: 3em;
 }
 
-#separator p {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-size: 4rem;
-    color: #333;
-    text-align: center;
+#aboutme:before {
+	content:"";
+	display: block;
+	height: 2em;
 }
 
-#aboutme {
+#aboutme p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 3rem;
+    color: #333;
+    text-align: left;
+    text-indent: 2em;
+}
+
+.games {
+	margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 3rem;
+    color: #333;
+    text-align: left;
+    text-indent: 2em;
+}
+
+#vg-faves {
+	font-size: 2.5rem;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.colorado {
 	min-height: 80vh;
 	background-image: url('../img/freelance1.jpg');
 	background-size: cover;
@@ -58,13 +90,30 @@ section {
 	border-top: 1px solid black;
 }
 
-#aboutme:before {
+.adventure:before {
 	content:"";
 	display: block;
 	height: 3em;
 }
 
 #projects {
+	min-height: 1em;
+	color: white;
+	font-family: Shrikhand, cursive, sans-serif;
+	background-color: lemonchiffon;
+	font-size: 3em;
+}
+
+#projects .title {
+	margin-bottom: 1em;
+}
+
+.project-title {
+	text-align: center;
+	color: #333;
+}
+
+.mojave {
 	min-height: 90vh;
 	background-image: url('../img/projects.jpg');
 	background-size: cover;
@@ -76,7 +125,7 @@ section {
 #projects:before {
 	content:"";
 	display: block;
-	height: 3em;
+	height: 2em;
 }
 
 #footer {
@@ -107,7 +156,7 @@ h1 small {
 	font-size: 2.2em;
 	color: sienna;
 	letter-spacing: -6px;
-	font-family: 'Shrikhand';
+	font-family: 'Shrikhand', sans-serif;
 }
 
 .navbar-toggle {
@@ -128,8 +177,6 @@ h1 small {
 }
 
 .nav > li > a.btn-lg {
-	/* font-size: 2em;
-	padding: 0.2em; */
 	display: inline;
 	padding: 0em 0.4em;
 }
@@ -173,10 +220,7 @@ h1 small {
 	opacity: .8;
 }
 
-.madlib h1,
-.madlib p {
-	color: #333;
-}
+
 
 @media (max-width: 1000px) {
 
@@ -194,11 +238,21 @@ h1 small {
 		font-size: 2rem;
 	}
 
+	.games, #vg-faves {
+		font-size: 2rem;
+	}
+
+
+
 }
 
 @media (max-width: 787px) {
-	#aboutme {
+	#adventure {
 		background-position: -5vw 0em; 
+	}
+
+	.intro-title {
+		font-size: 10vw;
 	}
 }
 
