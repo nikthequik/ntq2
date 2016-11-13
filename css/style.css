@@ -221,7 +221,7 @@ h1 small {
 .carousel-caption> h1, .carousel-caption>p {
 	color: antiquewhite;
 	font-family: 'Shrikhand', cursive, sans-serif;
-	margin-top: -0.6vh;
+	margin-bottom: -1.9vh;
 }
 
 .carousel-caption>h1 {
@@ -234,6 +234,7 @@ h1 small {
 	font-family: 'Shrikhand', cursive, sans-serif;
 	opacity: .8;
 	text-shadow: -1px 0 #eee, 0 1px #eee, 1px 0 #eee, 0 -1px #eee;
+	font-size: 0.7em;
 }
 
 .carousel-indicators {
@@ -276,7 +277,7 @@ h1 small {
 	}
 
 	.intro-title {
-		font-size: 1.6em;
+		font-size: 1.7em;
 		text-align: center;
 		margin: -2em 0 0 0;
 	}
@@ -288,13 +289,17 @@ h1 small {
 	.adventure-title {
 		font-size: 1.3em;
 	}
+
+	h1 small {
+		margin: 0;
+	}
 }
 
 @media (max-height: 620px) {
 	.carousel-caption .btn {
 		margin-bottom: -3em;
 		color: #333;
-		font-size: .5em;
+		font-size: 0.3em;
 	}
 }
 
