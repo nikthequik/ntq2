@@ -10,7 +10,6 @@
   },
   "repository": {
     "type": "git",
-
     "url": "git+https://github.com/nikthequik/ntq2.git"
   },
   "author": "Nicholas Brown",
@@ -29,5 +28,10 @@
     "bower": "1.7.1",
     "express": "4.13.3"
   },
-  "cacheDirectories": ["node_modules"]
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "bower": "^1.7.1"
+  }
 }
