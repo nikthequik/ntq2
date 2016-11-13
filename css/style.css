@@ -1,5 +1,4 @@
 body {
-	font-family: 'Bungee Shade', cursive, sans-serif;
 	background-color: black;
 	color: #333;
 	overflow-x: hidden;
@@ -36,10 +35,10 @@ section {
 
 #intro {
 	background-image: url('../img/cover1.jpg');
-	min-height: 95vh;
+	min-height: 96vh;
 	background-size: cover;
 	background-position: 0em;
-	padding: 5em;
+	padding: 3em;
 	-webkit-filter: saturate(2);
 	margin-top: 3.6em;
 	background-repeat: no-repeat;
@@ -245,6 +244,13 @@ h1 small {
 	border: 1px solid #333;
 }
 
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+	color: #333;
+	transform: scale(3);
+	-webkit-transform: scale(3);
+}
+
 
 
 @media (max-width: 1000px) {
@@ -277,9 +283,9 @@ h1 small {
 	}
 
 	.intro-title {
-		font-size: 1.7em;
+		font-size: 1.9em;
 		text-align: center;
-		margin: -2em 0 0 0;
+		margin: 5em 0 0 0;
 	}
 
 	.countries-title {
@@ -300,6 +306,11 @@ h1 small {
 		margin-bottom: -3em;
 		color: #333;
 		font-size: 0.3em;
+	}
+
+	.carousel-control .glyphicon-chevron-left,
+	.carousel-control .glyphicon-chevron-right {
+		transform: scale(1);
 	}
 }
 
