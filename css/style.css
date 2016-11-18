@@ -322,4 +322,8 @@ h1 small {
 		font-family: 'Shrikhand', cursive, sans-serif;
 		margin-top: -15vh;
 	}
+
+	.intro-title {
+		margin: 2em 0 0 0;
+	}
 }
