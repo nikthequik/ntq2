@@ -9,13 +9,13 @@ section {
 }
 
 .nav-link {
-	font-family: Shrikhand, monospace, sans-serif;
+	font-family: Cardo, monospace, sans-serif;
 
 }
 
-/* .nav-link:hover {
+.nav-link:hover {
 	text-shadow: -2px 0 #eee, 0 2px #eee, 2px 0 #eee, 0 -2px #eee;
-} */
+}
 
 .intro-title {
 	font-size: 6em;
@@ -23,16 +23,19 @@ section {
 	margin-bottom: 1em;
 	font-weight: 700;
 	line-height: 0.8em;
-	font-family: 'Bungee Shade', cursive, sans-serif;
+	font-family: 'Cinzel', cursive, sans-serif;
+	text-shadow: -.5px 0 #eee, 0 .5px #eee, .5px 0 #eee, 0 -.5px #eee;
+	-webkit-font-smoothing: antialiased;
 }
 
 .title {
-	font-size: 2.5em;
+	font-size: 11vh;
 	text-align: center;
 	line-height: 0.8em;
 	color: #333;
-	font-family: 'Bungee Shade', cursive, sans-serif;
+	font-family: 'Cinzel', cursive, sans-serif;
 	font-weight: 700;
+	text-shadow: -1px 0 #eee, 0 1px #eee, 1px 0 #eee, 0 -1px #eee;
 }
 
 #top-nav {
@@ -54,9 +57,9 @@ section {
 }
 
 #aboutme {
-	min-height: 1em;
+	max-height: 100vh;
 	color: white;
-	font-family: Shrikhand, cursive, sans-serif;
+	font-family: Cardo, cursive, sans-serif;
 	background-color: lemonchiffon;
 	padding: 0 1em;
 	font-size: 3em;
@@ -65,16 +68,16 @@ section {
 #aboutme:before {
 	content:"";
 	display: block;
-	height: 2em;
+	height: 1em;
 }
 
 #aboutme p {
     margin-bottom: 1em;
-    font-size: 3rem;
+    font-size: 3vh;
     color: #333;
     text-align: left;
     text-indent: 2em;
-    text-shadow: -1px 0 #eee, 0 1px #eee, 1px 0 #eee, 0 -1px #eee;
+    text-shadow: -0.5px 0 #eee, 0 0.5px #eee, 0.5px 0 #eee, 0 -0.5px #eee;
 }
 
 #aboutme h1 {
@@ -82,7 +85,7 @@ section {
 }
 
 #vg-faves {
-	font-size: 2.5rem;
+	font-size: 2.5vh;
 	list-style: none;
 	text-align: center;
 	padding: 0;
@@ -110,7 +113,7 @@ section {
 .adventure-title {
 	font-size: 3em;
 	margin: -0.6em 0;
-	font-family: Shrikhand, monospace, sans-serif;
+	font-family: Cardo, monospace, sans-serif;
 	text-align: center;
 	text-shadow: -1px 0 #eee, 0 1px #eee, 1px 0 #eee, 0 -1px #eee;
 }
@@ -118,7 +121,7 @@ section {
 #projects {
 	min-height: 1em;
 	color: white;
-	font-family: Shrikhand, cursive, sans-serif;
+	font-family: Cardo, cursive, sans-serif;
 	background-color: lemonchiffon;
 	font-size: 3em;
 }
@@ -168,7 +171,7 @@ h1 small {
 	padding: 17px 15px 15px 15px;
 	color: sienna;
 	letter-spacing: -6px;
-	font-family: 'Shrikhand', sans-serif;
+	font-family: 'Cardo', sans-serif;
 }
 
 .navbar-toggle {
@@ -179,7 +182,7 @@ h1 small {
 .navbar-fixed-top .navbar-nav > .open > a, 
 .navbar-fixed-top .navbar-nav > li > a {
 	color: #333;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .navbar-fixed-top .navbar-nav > .active > a:hover, 
@@ -222,7 +225,7 @@ h1 small {
 
 .carousel-caption> h1, .carousel-caption>p {
 	color: antiquewhite;
-	font-family: 'Shrikhand', cursive, sans-serif;
+	font-family: 'Cardo', cursive, sans-serif;
 	margin-bottom: -1.9vh;
 }
 
@@ -233,7 +236,7 @@ h1 small {
 .carousel-caption .btn {
 	background-color: antiquewhite;
 	color: #333;
-	font-family: 'Shrikhand', cursive, sans-serif;
+	font-family: 'Cardo', cursive, sans-serif;
 	opacity: .8;
 	text-shadow: -1px 0 #eee, 0 1px #eee, 1px 0 #eee, 0 -1px #eee;
 	font-size: 0.7em;
@@ -319,7 +322,7 @@ h1 small {
 
 @media (max-height: 416px) {
 	.carousel-caption> h1, .carousel-caption>p:first-of-type {
-		font-family: 'Shrikhand', cursive, sans-serif;
+		font-family: 'Cardo', cursive, sans-serif;
 		margin-top: -15vh;
 	}
 
