@@ -32,6 +32,7 @@
     "node_modules"
   ],
   "devDependencies": {
-    "bower": "^1.7.1"
+    "bower": "^1.7.1",
+    "livereload": "^0.6.0"
   }
 }

@@ -2,3 +2,4 @@ node_modules/*
 Thumbs.db
 .vscode/*
 .DS_Store
+node_modules/*
