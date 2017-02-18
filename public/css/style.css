@@ -93,7 +93,7 @@ section {
 
 .colorado {
 	min-height: 80vh;
-	background-image: url('../img/freelance1.jpg');
+	background-image: url('public/img/freelance1.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0em 0em;
@@ -135,7 +135,7 @@ section {
 
 .mojave {
 	min-height: 90vh;
-	background-image: url('../img/projects.jpg');
+	background-image: url('public/img/projects.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0em 0em;
