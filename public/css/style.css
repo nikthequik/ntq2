@@ -47,6 +47,7 @@ section {
 	background-size: cover;
 	background-position: 0em;
 	padding: 3em;
+	filter: saturate(2);
 	-webkit-filter: saturate(2);
 	margin-top: 3.6em;
 	background-repeat: no-repeat;
