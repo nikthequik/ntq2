@@ -17,6 +17,7 @@ section {
 	text-align: right;
 	margin-bottom: 1em;
 	font-weight: 700;
+	color: #111;
 	line-height: 0.8em;
 	font-family: 'Cinzel', cursive, sans-serif;
 	text-shadow: -.5px 0 #eee, 0 .5px #eee, .5px 0 #eee, 0 -.5px #eee;
@@ -24,10 +25,10 @@ section {
 }
 
 .title {
-	font-size: 11vh;
+	font-size: 1.3em;
 	text-align: center;
 	line-height: 0.8em;
-	color: #333;
+	color: #222;
 	font-family: 'Cinzel', cursive, sans-serif;
 	font-weight: 700;
 	text-shadow: -1px 0 #eee, 0 1px #eee, 1px 0 #eee, 0 -1px #eee;
@@ -66,8 +67,8 @@ section {
 
 #aboutme p {
     margin-bottom: 1em;
-    font-size: 3vh;
-    color: #333;
+    font-size: 0.4em;
+    color: #222;
     text-align: left;
     text-indent: 2em;
     text-shadow: -0.5px 0 #eee, 0 0.5px #eee, 0.5px 0 #eee, 0 -0.5px #eee;
@@ -79,40 +80,6 @@ section {
 
 #aboutme h1 {
 	margin-bottom: 0.6em;
-}
-
-#vg-faves {
-	font-size: 2.5vh;
-	list-style: none;
-	text-align: center;
-	padding: 0;
-	color: #333;
-	text-shadow: -1px 0 #eee, 0 1px #eee, 1px 0 #eee, 0 -1px #eee;
-	margin-bottom: 2em;
-}
-
-.colorado {
-	min-height: 80vh;
-	background-image: url('public/img/freelance1.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 0em 0em;
-	-webkit-filter: saturate(2);
-	border-top: 1px solid black;
-}
-
-.adventure:before {
-	content:"";
-	display: block;
-	height: 3em;
-}
-
-.adventure-title {
-	font-size: 3em;
-	margin: -0.6em 0;
-	font-family: Cardo, monospace, sans-serif;
-	text-align: center;
-	text-shadow: -1px 0 #eee, 0 1px #eee, 1px 0 #eee, 0 -1px #eee;
 }
 
 #projects {
@@ -129,17 +96,8 @@ section {
 .project-title {
 	text-align: center;
 	color: #333;
-	height: 7vh;
+	height: 1em;
 	text-shadow: -1px 0 #eee, 0 1px #eee, 1px 0 #eee, 0 -1px #eee;
-}
-
-.mojave {
-	min-height: 90vh;
-	background-image: url('public/img/projects.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 0em 0em;
-	-webkit-filter: saturate(2);
 }
 
 #projects:before {
@@ -149,7 +107,7 @@ section {
 }
 
 h1 small {
-	color: #333;
+	color: #111;
 	margin: 0 1em 0 0;
 	font-weight: 700;
 }
@@ -206,7 +164,7 @@ h1 small {
 .img-responsive, .thumbnail > img, .thumbnail a > img, 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
 	width: auto;
-	height: 54vh;
+	height: 7em;
 	margin: 0 auto 0.4em;
 	border: 3px solid #333;
 	border-radius: 5px;
@@ -216,7 +174,7 @@ h1 small {
 .carousel-caption> h1, .carousel-caption>p {
 	color: antiquewhite;
 	font-family: 'Cardo', cursive, sans-serif;
-	margin-bottom: -1.9vh;
+	margin-bottom: -0.5em;
 }
 
 .carousel-caption>h1 {
@@ -224,10 +182,11 @@ h1 small {
 }
 
 .carousel-caption .btn {
-	background-color: antiquewhite;
-	color: #333;
+	background-color: #fff;
+	border: 1px solid #111;
+	color: #222;
 	font-family: 'Cardo', cursive, sans-serif;
-	opacity: .8;
+	opacity: .9;
 	text-shadow: -1px 0 #eee, 0 1px #eee, 1px 0 #eee, 0 -1px #eee;
 	font-size: 0.7em;
 }
@@ -265,18 +224,11 @@ h1 small {
 		font-size: 1.6rem;
 	}
 
-	#vg-faves {
-		font-size: 1.5rem;
-	}
-
 
 
 }
 
 @media (max-width: 787px) {
-	#adventure {
-		background-position: -5vw 0em; 
-	}
 
 	.intro-title {
 		font-size: 1.9em;
@@ -288,10 +240,6 @@ h1 small {
 		font-size: 0.6em;
 	}
 
-	.adventure-title {
-		font-size: 1.3em;
-	}
-
 	h1 small {
 		margin: 0;
 	}
@@ -301,7 +249,7 @@ h1 small {
 	.carousel-caption .btn {
 		margin-bottom: -3em;
 		color: #333;
-		font-size: 0.3em;
+		font-size: 0.35em;
 	}
 
 	.carousel-control .glyphicon-chevron-left,
