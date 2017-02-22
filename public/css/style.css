@@ -42,7 +42,7 @@ section {
 
 #intro {
 	background-image: url('../img/cover1.jpg');
-	min-height: 96vh;
+	min-height: 100vh;
 	background-size: cover;
 	background-position: 0em;
 	padding: 3em;
@@ -115,11 +115,15 @@ h1 small {
 }
 
 #project-carousel {
-	margin-bottom: 4vh;
+	margin-bottom: 0.9em;
 }
 
 
 /* Bootstrap Overrides */
+
+.glyphicon {
+	top: -3px;
+}
 
 .navbar-fixed-top .navbar-brand {
 	font-size: 2.2em;
@@ -264,7 +268,7 @@ h1 small {
 @media (max-height: 416px) {
 	.carousel-caption> h1, .carousel-caption>p:first-of-type {
 		font-family: 'Cardo', cursive, sans-serif;
-		margin-top: -15vh;
+		margin-top: 9vh;
 	}
 
 	.intro-title {
