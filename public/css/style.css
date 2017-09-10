@@ -9,6 +9,7 @@ section {
 
 .nav-link {
 	font-family: Cardo, monospace, sans-serif;
+	
 
 }
 
@@ -38,11 +39,14 @@ section {
 	background-color: #111;
 	font-size: 1.4em;
 	text-align: center;
+	height: 2.5em;
+	perspective: 100px;
+	transition: perspective 1s;
 }
 
 #intro {
 	background-image: url('../img/cover1.jpg');
-	min-height: 100vh;
+	height: 100vh;
 	background-size: cover;
 	background-position: 0em;
 	padding: 3em;
@@ -52,17 +56,33 @@ section {
 	background-repeat: no-repeat;
 }
 
+#frontEnd {
+	list-style: none;
+	font-size: 1em;
+	padding: 0;
+	margin: 0 0 0 0;
+}
+
+#backEnd {
+	list-style: none;
+	padding: 0;
+	float: right;
+	text-align: right;
+	margin: 0 0 0 0;
+	font-size: 1em;
+}
+
 #aboutme {
-	font-family: Cardo, cursive, sans-serif;
-	background-color: #eee;
-	padding: 0 1em;
+	font-family: "Cabin Sketch", Georgia, sans-serif;
+	background-color: #fff;
+	padding: 1em 0 0 0;
 	font-size: 3em;
 }
 
 #aboutme:before {
 	content:"";
 	display: block;
-	height: 2.5em;
+	height: 0;
 }
 
 #aboutme p {
@@ -79,7 +99,21 @@ section {
 }
 
 #aboutme h1 {
-	margin-bottom: 0.6em;
+	margin: 0 0 0.5em 0;
+	font-family: 'Sedgwick Ave Display', Georgia, sans-serif;
+	text-align: center;
+	font-size: 2.3em;
+}
+
+#clashmash h1 {
+	text-align: center;
+	opacity: 0;
+	color: #333;
+	font-size: 5em;
+	font-family: 'Sedgwick Ave Display', Georgia, sans-serif;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;
 }
 
 #projects {
@@ -233,6 +267,7 @@ h1 small {
 	#aboutme {
 		min-height: 1em;
 		font-size: 6vw;
+		padding: 1em 1em 0;
 	}
 	
 	#aboutme p {
